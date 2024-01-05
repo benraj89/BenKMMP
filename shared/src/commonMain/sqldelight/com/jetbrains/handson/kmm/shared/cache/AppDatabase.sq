@@ -1,0 +1,18 @@
+CREATE TABLE EVENT (
+    id INTEGER NOT NULL,
+    event TEXT NOT NULL,
+    event_desc TEXT NOT NULL,
+    event_pic TEXT NOT NULL,
+    date TEXT NOT NULL,
+    time TEXT NOT NULL,
+    event_start TEXT NOT NULL
+);
+
+insertEvent:
+INSERT INTO EVENT(id, event, event_desc, event_pic, date, time, event_start) VALUES(?, ?, ?, ?, ?, ?, ?);
+
+removeAllEvents:
+DELETE FROM EVENT;
+
+selectAllEvents:
+SELECT * FROM EVENT;
