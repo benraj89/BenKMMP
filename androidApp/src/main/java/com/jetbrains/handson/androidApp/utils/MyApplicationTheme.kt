@@ -1,4 +1,4 @@
-package com.jetbrains.handson.androidApp
+package com.jetbrains.handson.androidApp.utils
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.shape.RoundedCornerShape

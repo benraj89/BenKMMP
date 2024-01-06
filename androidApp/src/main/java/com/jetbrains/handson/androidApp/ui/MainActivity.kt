@@ -1,4 +1,4 @@
-package com.jetbrains.handson.androidApp
+package com.jetbrains.handson.androidApp.ui
 
 import android.os.Bundle
 import android.widget.Toast
@@ -29,6 +29,8 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.jetbrains.handson.androidApp.utils.MyApplicationTheme
+import com.jetbrains.handson.androidApp.utils.Strings
 import com.jetbrains.handson.kmm.shared.Repository
 import com.jetbrains.handson.kmm.shared.cache.DatabaseDriverFactory
 import com.jetbrains.handson.kmm.shared.entity.Event
@@ -126,7 +128,7 @@ class MainActivity : ComponentActivity() {
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(2.dp)
-                .background(color = Color.Magenta)
+                .background(color = Color.DarkGray)
                 .border(1.dp, Color.DarkGray)
                 .padding(10.dp),
             ) {
