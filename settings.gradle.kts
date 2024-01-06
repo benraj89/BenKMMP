@@ -6,7 +6,7 @@ pluginManagement {
     }
 }
 
-rootProject.name = "KMMApp"
+rootProject.name = "KMPApp"
 
 include(":androidApp")
 include(":shared")
