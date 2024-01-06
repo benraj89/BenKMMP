@@ -5,7 +5,7 @@ plugins {
     id("com.squareup.sqldelight")
 }
 
-group = "com.jetbrains.handson"
+group = "com.incture.kmp"
 version = "1.0"
 
 kotlin {
@@ -84,11 +84,11 @@ android {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
     }
-    namespace = "com.jetbrains.handson.android"
+    namespace = "com.incture.kmp"
 }
 
 sqldelight {
     database("AppDatabase") {
-        packageName = "com.jetbrains.handson.kmm.shared.cache"
+        packageName = "com.incture.kmp.kmm.shared.cache"
     }
 }

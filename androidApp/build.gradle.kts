@@ -7,7 +7,7 @@ android {
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.jetbrains.handson.androidApp"
+        applicationId = "com.incture.kmp"
         minSdk = 26
         targetSdk = 34
         versionCode = 1
@@ -39,7 +39,7 @@ android {
     composeOptions {
         kotlinCompilerExtensionVersion = "1.4.7"
     }
-    namespace = "com.jetbrains.handson.androidApp"
+    namespace = "com.incture.kmp"
     packaging {
         resources {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
